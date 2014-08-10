@@ -88,8 +88,8 @@ public class MainActivity extends Activity implements OnItemSelectedListener
         setContentView(R.layout.voice_recog);
  
         ImageButton speakButton = (ImageButton) findViewById(R.id.speakButton);
-        ImageButton ocrButton = (ImageButton) findViewById(R.id.ocrButton);
-        ocrButton.setOnClickListener(new ButtonClickHandler());
+       // ImageButton ocrButton = (ImageButton) findViewById(R.id.ocrButton);
+       // ocrButton.setOnClickListener(new ButtonClickHandler());
         _image = ( ImageView ) findViewById( R.id.image );
         _path = Environment.getExternalStorageDirectory() + "/images/make_machine_example.jpg";
 
@@ -555,6 +555,22 @@ try {
             	  }
 
             	  wordsList.setText(res);
+            	  res = "";
+            	  partial = kgsList.getText().toString().split("\n");
+            	  for (int j=0; j< partial.length; j++) {
+            		  if (j == toBeDel) {
+            			  continue;
+            		  }
+            		 
+            		  if ( res!= "") {
+            		      res += '\n' + partial[j];
+            		  } else {
+            			  res = partial[j];
+            		  
+            		  }
+            	  }
+            	  kgsList.setText(res);
+            	  
             	  return;
               }
              
