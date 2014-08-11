@@ -13,6 +13,18 @@ Voice cart is an android app which serves as a handy grocery shopping cart. Apar
 
 Usage
 -----
+The APP support data entry through text or voice. The microphone button prompts the user to speak.
+The spinner menu has four options 
+ - Save
+     This option saves the shopping cart to memory. The data is indexed by the date you set through the calendar option.
+ - Restore
+     This option restores previously saved data from memory to the table. As before, the data to be retrieved is indexed by the date set on the calendar
+ - Email
+     This option allows the user to email the shopping cart or save it in google drive. 
+ - AutoFill
+     This uses built in intelligence in the APP and knowledge of purchase history to auto generate the shopping cart. The items to be auto generated depends on the frequency of purchase of the item. The frequency is compared to the duration between previous purchase date of the item and current set date to evaluate whether or not to auto fill. 
+
+More information is present in the documentation folder. 
 
 References
 ----------
