@@ -31,11 +31,18 @@ http://stackoverflow.com/
 Source Code
 -----------
 
+All the source code is hosted here https://github.com/roopas7/VoiceCart
+
 Build Information
 -----------------
 
+THe link to the APK file is https://github.com/roopas7/VoiceCart/blob/master/bin/VoiceCart.apk
+In addition you can download the entire source code in your hard disk and set the projects workspace as the download location. 
+
 Copyright information
 ---------------------
+
+https://github.com/roopas7/VoiceCart/blob/master/LICENSE
 
 Contributors
 ------------
