@@ -49,7 +49,11 @@ Build Information
 -----------------
 
 THe link to the APK file is https://github.com/roopas7/VoiceCart/blob/master/bin/VoiceCart.apk
-In addition you can download the entire source code in your hard disk and set the projects workspace as the download location. 
+In addition you can download the entire source code in your hard disk and set the projects workspace in Eclipse as the download location. To install the APP on your phone from eclipse, right-click on the project name, choose run As-> Android Application. Make sure the phone is connected through USB and that you have developer options enabled. 
+To clone the data into your local disk, do git clone https://github.com/roopas7/VoiceCart.git
+You can also install the APP through google play store (https://play.google.com/store/apps/details?id=com.roopa.VoiceCart&hl=en)
+
+
 
 Copyright information
 ---------------------
